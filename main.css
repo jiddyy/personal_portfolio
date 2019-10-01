@@ -1,0 +1,48 @@
+* {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body {
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+h3 {
+    color: #45a29e;
+}
+img {
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    right: 38%;
+    padding: 3rem;
+}
+.who-i-am {
+    position: relative;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 18rem;
+    text-align: center;
+    left: 10%;
+}
+.who-i-am li {
+    max-width: 20rem;
+    text-align: center;
+}
+.skills {
+    list-style-type: none;
+    padding-left: 2.5rem;
+}
+.skills-h3 {
+    padding-left: 2.5rem;
+}
+.recent-work-h3, .recent-work-p {
+    padding-left: 2.5rem;
+}
+/* li {
+    text-align: center;
+    max-width: 20rem; 
+} */
+
+
