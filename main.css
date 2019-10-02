@@ -9,7 +9,7 @@ body {
 h3 {
     color: #45a29e;
 }
-img {
+.profile-pic {
     border-radius: 50%;
     height: 12rem;
     width: 12rem;
@@ -22,7 +22,7 @@ img {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 18rem;
+    padding-top: 3rem;
     text-align: center;
     left: 10%;
 }
@@ -40,9 +40,72 @@ img {
 .recent-work-h3, .recent-work-p {
     padding-left: 2.5rem;
 }
-/* li {
-    text-align: center;
-    max-width: 20rem; 
+/* .recent-work {
+
 } */
-
-
+.recent-work {
+    position: relative;
+    width: 50%;
+    padding-left: 2.5rem;
+}  
+.gadgets-img {
+    display: block;
+    min-width: 20rem;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    margin-left: 2.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 61%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1f2833;
+}  
+.recent-work:hover .overlay {
+    opacity: 1;
+}
+.fade-in-text {
+    color: #c5c6c7;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.github {
+    min-width: 20rem;
+    height: auto;
+}
+.git-overlay {
+    position: absolute;
+    margin-left: 2.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 61%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1f2833;
+}
+.git-fade-in {
+    color: #c5c6c7;
+    font-size: 15px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.git-img {
+    display: block;
+    min-width: 20rem;
+    height: auto;
+}
